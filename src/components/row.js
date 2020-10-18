@@ -18,9 +18,10 @@ const Row = ({
           position: 'absolute',
           right: '0',
           top: '0',
-          height: '30px',
-          width: '30px',
+          fontSize: '11px',
+          padding: '.3rem',
           color: 'white',
+          borderRadius: '2px',
           background: 'tomato',
         }}
       >
