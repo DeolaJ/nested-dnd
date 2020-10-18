@@ -1,0 +1,80 @@
+.App {
+  padding: 1.5rem;
+  background: #e7e7e7;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+
+  > * {
+    background: white;
+    box-shadow: 0 0 11px 3px rgba(0, 0, 0, .1);
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.sidebar {
+  padding: 1rem;
+  flex-shrink: 1;
+  margin-right: 2rem;
+}
+
+.drop-page {
+  padding: 1rem;
+  flex-grow: 1;
+  min-height: 30vh;
+
+  > div {
+    min-height: 30vh;
+  }
+}
+
+.elementWrapper {
+  border: 1px solid black;
+  padding: 1rem;
+  color: black;
+  font-size: 1rem;
+
+  p {
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+  + .elementWrapper {
+    margin-top: 1rem;
+  }
+}
+
+.fieldWrapper {
+  background: aliceblue;
+  box-shadow: 0 0 13px 2px rgba(0, 0, 0, .05);
+  padding: 1rem;
+  color: black;
+  font-size: 1.1rem;
+
+  + .fieldWrapper {
+    margin-top: 1rem;
+  }
+}
+
+.row {
+  position: relative;
+}
+
+.regular {
+  background: white;
+  padding: .8rem;
+}
+
+button {
+  border: none;
+  box-shadow: none;
+  padding: .5rem;
+  font-size: .8rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: white;
+  color: tomato;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "nested-dnd",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "max-lines": ["warn", { "max": 350 }],
+      "max-statements": ["warn", 20, { "ignoreTopLevelFunctions": true }],
+      "max-lines-per-function": ["warn", { "max": 50, "skipComments": true }],
+      "react/jsx-fragments": ["warn", "syntax"]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
