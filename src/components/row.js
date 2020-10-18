@@ -20,11 +20,16 @@ const Row = ({
           top: '0',
           height: '30px',
           width: '30px',
-          background: 'red',
+          color: 'white',
+          background: 'tomato',
         }}
-      />
+      >
+        drop here
+      </div>
       <Droppable
         droppableId={`${ctrl.id} row`}
+        direction="horizontal"
+        className="rowWrapper"
       >
         {(provided, snapshot) => (
           <div

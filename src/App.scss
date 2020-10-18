@@ -63,6 +63,10 @@
   position: relative;
 }
 
+.rowWrapper {
+  display: flex;
+}
+
 .regular {
   background: white;
   padding: .8rem;
